@@ -38,7 +38,7 @@ function getWeather()
         })
         .catch(error => {
             console.error('Error:', error); // Log the error
-            document.getElementById('weather-info').innerHTML = '<p><b>Not Found beta ab dubara try mat karna...</b></p>';
+            document.getElementById('weather-info').innerHTML = '<p><b>Not Found city , try again...</b></p>';
 
         });
 }
